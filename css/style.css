@@ -34,11 +34,8 @@ p {
   border: 1px solid black;
   height: 25px;
   padding: 0px;
-  width: 100px;
   float: none;
-  position: relative;
-  top: 0;
-  left: 0;
+  
 }
 
 .title {
@@ -46,6 +43,9 @@ p {
   font-size: 20px;
   text-align: center;
   padding: 0px;
+  position: relative;
+  top: 0;
+  right: 0;
 
 }
 
