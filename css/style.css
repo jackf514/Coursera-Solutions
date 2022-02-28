@@ -11,13 +11,7 @@ h1 {
   text-align: center;
 }
 
-div {
-  border: 1px solid black;
-  width: 33.33%;
-  margin: auto;
-  float: left;
-  background-color: gray;
-}
+
 
 p {
   padding: 10px;
@@ -26,6 +20,10 @@ p {
 .container {
   position: relative;
   margin: 10px;
+  border: 1px solid black;
+  width: 33.33%;
+  float: left;
+  background-color: gray;
 }
 
 .sectionTitle {
