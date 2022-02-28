@@ -35,10 +35,11 @@ p {
   height: 25px;
   width: 25%;
   padding: 0px;
-  float: none;
   position: relative;
   top: 0;
   right: 0;
+  float: none;
+  
 }
 
 .title {
