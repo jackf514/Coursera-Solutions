@@ -1,3 +1,87 @@
+
 * {
   box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+}
+
+h1 {
+  margin-bottom: 15px;
+  margin-top: 15px;
+  text-align: center;
+}
+
+div {
+  border: 1px solid black;
+  width: 33.33%;
+  margin: auto;
+  float: left;
+  background-color: gray;
+}
+
+p {
+  padding: 10px;
+}
+
+.container {
+  position: relative;
+  margin: 10px;
+}
+
+.sectionTitle {
+  border: 1px solid black;
+  height: 25px;
+  padding: 0px;
+  width: 100px;
+  float: none;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.title {
+  font-weight: bold;
+  font-size: 20px;
+  text-align: center;
+  padding: 0px;
+
+}
+
+.section {
+  position: relative;
+  top: 20px;
+}
+
+#title_1 {
+  background-color: red;
+}
+
+#title_2 {
+  background-color: lightblue;
+}
+
+#title_3 {
+  background-color: green;
+}
+
+@media (min-width: 992px) {
+  .container {
+    width: 33.33%;
+  }
+}
+
+@media (min-width: 768px and max-width: 991px) {
+  .container {
+    width: 50%;
+  }
+
+  #section_3 {
+    width: 100%;
+  }
+}
+
+@media (max-width: 767px) {
+  .container {
+    width: 100%;
+  }
 }
