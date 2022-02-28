@@ -34,7 +34,6 @@ p {
 .sectionTitle {
   border: 1px solid black;
   height: 25px;
-  
   padding: 0px;
   width: 100px;
   position: absolute;
@@ -84,6 +83,7 @@ p {
 
   #section_3 {
     width: 100%;
+    clear: both;
   }
 }
 
