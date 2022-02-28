@@ -11,8 +11,6 @@ h1 {
   text-align: center;
 }
 
-
-
 p {
   padding: 10px;
 }
@@ -24,6 +22,12 @@ p {
   width: 33.33%;
   float: left;
   background-color: gray;
+}
+
+.titleContainer{
+  border: none;
+  float: none;
+  postion: relative;
 }
 
 .sectionTitle {
