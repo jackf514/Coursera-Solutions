@@ -15,11 +15,14 @@ p {
   padding: 10px;
 }
 
+.wrapper {
+  padding: 10px;
+  width: 33.33%;
+}
+
 .container {
   position: relative;
-  margin: 10px;
   border: 1px solid black;
-  width: 33.33%;
   float: left;
   background-color: gray;
 }
@@ -71,13 +74,13 @@ p {
 }
 
 @media (min-width: 992px) {
-  .container {
-    width: 30%;
+  .wrapper {
+    width: 33.33%;
   }
 }
 
 @media (min-width: 768px and max-width: 991px) {
-  .container {
+  .wrapper {
     width: 50%;
   }
 
@@ -88,7 +91,7 @@ p {
 }
 
 @media (max-width: 767px) {
-  .container {
+  .wrapper {
     width: 100%;
   }
 }
