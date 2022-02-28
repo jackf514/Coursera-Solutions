@@ -27,6 +27,7 @@ p {
 .titleContainer{
   border: none;
   float: none;
+  height: 25px;
   postion: relative;
 }
 
