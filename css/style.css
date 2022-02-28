@@ -19,12 +19,12 @@ p {
   padding: 10px;
   width: 33.33%;
   position: relative;
+  float: left;
 }
 
 .container {
   position: absolute;
   border: 1px solid black;
-  float: left;
   background-color: gray;
 }
 
