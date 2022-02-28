@@ -35,8 +35,8 @@ p {
   height: 25px;
   
   padding: 0px;
-  width: 50px;
-  position: relative;
+  width: 100px;
+  position: absolute;
   top: 0;
   right: 0;
   float: none;
