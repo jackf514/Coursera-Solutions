@@ -1,1 +1,36 @@
+/* -- Header Start -- */
+ul{
+  text-align: center;
+  font-size: 1.3em;
+  font-weight: bold;
+  background-color: lightblue;
+}
+#nav-list{
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+hr{
+  margin-top: 2px;
+  margin-bottom: 2px;
+}
+/* -- Header End -- */
 
+/* -- Body Start -- */
+h1{
+  font-size: 2em;
+}
+
+#main-content{
+  background-color: lightgray;
+}
+
+#content-desc{
+  font-size: 1.2em;
+}
+
+h2{
+  font-size: 1.5em;
+  margin-bottom: 15px;
+  margin-top: 15px;
+}
+/* -- Body End -- */
