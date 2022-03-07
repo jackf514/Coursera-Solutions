@@ -1,0 +1,64 @@
+
+* {
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+}
+
+h1 {
+  margin-bottom: 15px;
+}
+
+div {
+  border: 1px solid black;
+  width: 33.33%;
+  margin: auto;
+  height: 250px;
+  float: left;
+  background-color: gray;
+}
+
+p {
+  padding: 10px;
+}
+
+.container {
+  position: relative;
+  margin: 10px;
+}
+
+.sectionTitle {
+  border: 1px solid black;
+  height: 25px;
+  padding: 0px;
+  width: 100px;
+  float: none;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.title {
+  font-weight: bold;
+  font-size: 20px;
+  text-align: center;
+  padding: 0px;
+
+}
+
+.section {
+  position: relative;
+  top: 20px;
+}
+
+#title_1 {
+  background-color: red;
+}
+
+#title_2 {
+  background-color: lightblue;
+}
+
+#title_3 {
+  background-color: green;
+}
