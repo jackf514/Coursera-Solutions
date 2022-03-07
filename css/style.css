@@ -3,6 +3,10 @@
 }
 
 /* -- Header Start -- */
+.navbar-brand{
+  font-size: 2em;
+}
+
 ul{
   text-align: center;
   font-size: 1.3em;
