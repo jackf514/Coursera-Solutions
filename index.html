@@ -2,56 +2,115 @@
 	<HTML>
 		<head>
 			<meta charset="utf-8">
-			<meta http-equiv="X-UA-Compatible" content="IE=edge">
-    			<meta name="viewport" content="width=device-width, initial-scale=1">
-			<title>Module 2 Coding Assignment Solution</title>
+    		<meta name="viewport" content="width=device-width, initial-scale=1">
+			<title>Module 3 Coding Assignment Solution</title>
+			<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
 			<link rel="stylesheet" type="text/css" href="css/style.css">
 		</head>
 		<body>
-			<h1>Our Menu</h1>
-			<div class="wrapper" id="section_1">
-				<div class ="container">
-					<div class="titleContainer">
-						<div class="sectionTitle" id="title_1">
-							<p class="title">
-								Chicken
-							</p>
+			<!-- Header Start -->
+			<header> 
+				<nav class="navbar navbar-default">
+					<div class="container">
+						<div class="navbar-header">
+							<div class="navbar-brand pull-left">
+								Food, LLC
+							</div>
+							<button type="button" class="navbar-toggle collapsed visible-xs" data-toggle="collapse" data-target="#collapse-nav" aria-expanded="false">
+	        					<span class="sr-only">Toggle navigation</span>
+	       						<span class="icon-bar"></span>
+	        					<span class="icon-bar"></span>
+	        					<span class="icon-bar"></span>
+      						</button>
+						</div>
+						<div id="collapse-nav" class="collapse navbar-collapse">
+							<ul id="nav-list" class="nav navbar-nav navbar-right visible-xs">
+								<li>
+									<a href="#">
+									<span>Chicken</span>
+									</a>
+								</li>
+								<hr>
+								<li>
+									<a href="#">
+									<span>Beef</span>
+									</a>
+								</li>
+								<hr>
+								<li>
+									<a href="#">
+									<span>Sushi</span>
+									</a>
+								</li>
+							</ul>
 						</div>
 					</div>
-					<p class="section">
-						Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis vitae iaculis quam, mattis dapibus nisi. Sed interdum libero metus, non viverra massa fringilla et. Etiam porta porta volutpat. Integer arcu sem, porttitor vestibulum nunc vitae, sodales hendrerit libero. Fusce quis erat urna. Vestibulum sollicitudin lectus odio, sit amet ultricies magna porta et. Cras euismod, odio et pharetra tincidunt, nulla mi tempus sapien, eget euismod felis est in erat. Quisque tempus odio vel efficitur ultrices. Pellentesque accumsan commodo nisl id varius. Aliquam erat volutpat. Vivamus facilisis arcu risus, in dictum sem congue ut.
-					</p>
-				</div>
-			</div>
+				</nav>
+			</header> 
+			<!-- Header End -->
 			
-			<div class="wrapper" id="section_2">
-				<div class ="container">
-					<div class="titleContainer">
-						<div class="sectionTitle" id="title_2">
-							<p class="title">
-								Beef
-							</p>
-						</div>
-					</div>
-					<p class="section">
-						In hac habitasse platea dictumst. Suspendisse sit amet velit ut nunc aliquet eleifend. Cras dignissim enim sit amet libero hendrerit, vel bibendum dolor molestie. Phasellus rutrum posuere quam in eleifend. Quisque rhoncus lectus ipsum, non accumsan ante aliquam vel. Mauris dictum dui id rutrum euismod. Morbi tempor aliquam turpis, ut viverra ante auctor in. In risus mauris, luctus molestie nunc nec, convallis tempus sapien. Vivamus a nibh velit. Fusce vulputate pulvinar erat, eget finibus leo viverra at. Sed vel ex nec turpis volutpat suscipit sit amet vel eros.
-					</p>				
+			<!-- Main Page Start -->
+			<h1 class="text-center">
+				Our Menu
+			</h1>
+			<div id="main-content" class="container">
+				<div class="col-xs-12">
+					<h2 class="text-center">
+					Chicken
+				</h2>
+				<p id="content-desc">
+					Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras mauris velit, placerat sit amet consectetur sit amet, tempor non magna. Proin dignissim elit a ante porta, ut sagittis felis tristique. Nullam placerat, augue lobortis pellentesque feugiat, neque risus lobortis purus, a finibus erat nulla vel nisl. Cras vel lacinia mi. Suspendisse feugiat mi leo, ut facilisis quam luctus sit amet. Ut mollis at nulla vel ornare. Maecenas sit amet pretium nisi, in sodales tortor. Nullam et tellus eros. Nam mi velit, eleifend non sapien at, placerat imperdiet lectus. Duis bibendum et diam in consectetur. Vestibulum at nibh nec sem gravida auctor nec ut nulla. Donec consequat sit amet odio at mollis. Lorem ipsum dolor sit amet, consectetur adipiscing elit. In hac habitasse platea dictumst. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae;
+					<br>
+					<br>
+					In semper fringilla venenatis. Interdum et malesuada fames ac ante ipsum primis in faucibus. Ut malesuada tempor lacinia. Quisque id finibus dui, sit amet elementum ligula. Sed et ligula tempor, aliquam dui a, molestie lorem. Aliquam viverra, magna eget dictum consequat, diam libero accumsan ex, eu scelerisque massa mi eu massa. Mauris eleifend libero id blandit malesuada. Aenean vitae libero quis eros malesuada feugiat. Vestibulum dictum sem eu nunc suscipit efficitur. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.
+					<br>
+					<br>
+					Suspendisse lorem sem, feugiat id ligula at, euismod efficitur odio. Interdum et malesuada fames ac ante ipsum primis in faucibus. Donec non magna dolor. Quisque tempor feugiat tellus sit amet mattis. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Nam id euismod purus, sed dictum sapien. Nullam interdum quis leo nec porta.
+					<br>
+					<br>
+					Ut efficitur et erat ac pretium. Cras sed pretium nibh. Integer eget lectus id massa malesuada cursus ac quis turpis. Donec eu lacus in nulla rutrum volutpat. Mauris tempus elit vitae mauris euismod ultrices. Donec elementum lectus pulvinar, euismod dolor non, euismod leo. Maecenas pharetra malesuada ipsum, vitae facilisis lorem viverra eu. Proin viverra orci sit amet mi sodales, non pharetra urna suscipit.
+					<br>
+					<br>
+					Donec imperdiet dui imperdiet fermentum fringilla. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Vivamus tincidunt libero nulla, et cursus quam ultrices sed. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Sed sit amet metus felis. In hac habitasse platea dictumst. Integer convallis felis dui, ut dignissim orci posuere a. Nam ac finibus enim, in venenatis sem.
+					<br>
+					<br>
+					Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras mauris velit, placerat sit amet consectetur sit amet, tempor non magna. Proin dignissim elit a ante porta, ut sagittis felis tristique. Nullam placerat, augue lobortis pellentesque feugiat, neque risus lobortis purus, a finibus erat nulla vel nisl. Cras vel lacinia mi. Suspendisse feugiat mi leo, ut facilisis quam luctus sit amet. Ut mollis at nulla vel ornare. Maecenas sit amet pretium nisi, in sodales tortor. Nullam et tellus eros. Nam mi velit, eleifend non sapien at, placerat imperdiet lectus. Duis bibendum et diam in consectetur. Vestibulum at nibh nec sem gravida auctor nec ut nulla. Donec consequat sit amet odio at mollis. Lorem ipsum dolor sit amet, consectetur adipiscing elit. In hac habitasse platea dictumst. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae;
+					<br>
+					<br>
+					In semper fringilla venenatis. Interdum et malesuada fames ac ante ipsum primis in faucibus. Ut malesuada tempor lacinia. Quisque id finibus dui, sit amet elementum ligula. Sed et ligula tempor, aliquam dui a, molestie lorem. Aliquam viverra, magna eget dictum consequat, diam libero accumsan ex, eu scelerisque massa mi eu massa. Mauris eleifend libero id blandit malesuada. Aenean vitae libero quis eros malesuada feugiat. Vestibulum dictum sem eu nunc suscipit efficitur. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.
+					<br>
+					<br>
+					Suspendisse lorem sem, feugiat id ligula at, euismod efficitur odio. Interdum et malesuada fames ac ante ipsum primis in faucibus. Donec non magna dolor. Quisque tempor feugiat tellus sit amet mattis. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Nam id euismod purus, sed dictum sapien. Nullam interdum quis leo nec porta.
+					<br>
+					<br>
+					Ut efficitur et erat ac pretium. Cras sed pretium nibh. Integer eget lectus id massa malesuada cursus ac quis turpis. Donec eu lacus in nulla rutrum volutpat. Mauris tempus elit vitae mauris euismod ultrices. Donec elementum lectus pulvinar, euismod dolor non, euismod leo. Maecenas pharetra malesuada ipsum, vitae facilisis lorem viverra eu. Proin viverra orci sit amet mi sodales, non pharetra urna suscipit.
+					<br>
+					<br>
+					Donec imperdiet dui imperdiet fermentum fringilla. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Vivamus tincidunt libero nulla, et cursus quam ultrices sed. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Sed sit amet metus felis. In hac habitasse platea dictumst. Integer convallis felis dui, ut dignissim orci posuere a. Nam ac finibus enim, in venenatis sem.
+					<br>
+					<br>
+					Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras mauris velit, placerat sit amet consectetur sit amet, tempor non magna. Proin dignissim elit a ante porta, ut sagittis felis tristique. Nullam placerat, augue lobortis pellentesque feugiat, neque risus lobortis purus, a finibus erat nulla vel nisl. Cras vel lacinia mi. Suspendisse feugiat mi leo, ut facilisis quam luctus sit amet. Ut mollis at nulla vel ornare. Maecenas sit amet pretium nisi, in sodales tortor. Nullam et tellus eros. Nam mi velit, eleifend non sapien at, placerat imperdiet lectus. Duis bibendum et diam in consectetur. Vestibulum at nibh nec sem gravida auctor nec ut nulla. Donec consequat sit amet odio at mollis. Lorem ipsum dolor sit amet, consectetur adipiscing elit. In hac habitasse platea dictumst. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae;
+					<br>
+					<br>
+					In semper fringilla venenatis. Interdum et malesuada fames ac ante ipsum primis in faucibus. Ut malesuada tempor lacinia. Quisque id finibus dui, sit amet elementum ligula. Sed et ligula tempor, aliquam dui a, molestie lorem. Aliquam viverra, magna eget dictum consequat, diam libero accumsan ex, eu scelerisque massa mi eu massa. Mauris eleifend libero id blandit malesuada. Aenean vitae libero quis eros malesuada feugiat. Vestibulum dictum sem eu nunc suscipit efficitur. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.
+					<br>
+					<br>
+					Suspendisse lorem sem, feugiat id ligula at, euismod efficitur odio. Interdum et malesuada fames ac ante ipsum primis in faucibus. Donec non magna dolor. Quisque tempor feugiat tellus sit amet mattis. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Nam id euismod purus, sed dictum sapien. Nullam interdum quis leo nec porta.
+					<br>
+					<br>
+					Ut efficitur et erat ac pretium. Cras sed pretium nibh. Integer eget lectus id massa malesuada cursus ac quis turpis. Donec eu lacus in nulla rutrum volutpat. Mauris tempus elit vitae mauris euismod ultrices. Donec elementum lectus pulvinar, euismod dolor non, euismod leo. Maecenas pharetra malesuada ipsum, vitae facilisis lorem viverra eu. Proin viverra orci sit amet mi sodales, non pharetra urna suscipit.
+					<br>
+					<br>
+					Donec imperdiet dui imperdiet fermentum fringilla. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Vivamus tincidunt libero nulla, et cursus quam ultrices sed. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Sed sit amet metus felis. In hac habitasse platea dictumst. Integer convallis felis dui, ut dignissim orci posuere a. Nam ac finibus enim, in venenatis sem.
+					<br>
+				</p>
 				</div>
+				
 			</div>
-			
-			<div class="wrapper" id="section_3">
-				<div class ="container">
-					<div class="titleContainer">
-						<div class="sectionTitle" id="title_3">
-							<p class="title">
-								Sushi
-							</p>
-						</div>
-					</div>
-					<p class="section">
-						Fusce ut fermentum justo, et iaculis tortor. Mauris quis odio velit. Vivamus et tellus lectus. Sed condimentum ligula nec vestibulum hendrerit. In vel dolor hendrerit, varius odio eu, hendrerit est. Phasellus gravida malesuada justo, sit amet euismod ex gravida non. Donec id neque eu dolor tincidunt ultrices.
-					</p>
-				</div>
-			</div>
+			<!-- Main Page End -->
+			<!-- jQuery -->
+  			<script src="js/jquery-2.1.4.min.js"></script>
+		  	<script src="js/bootstrap.min.js"></script>
+		  	<script src="js/script.js"></script>
 		</body>
 	</HTML>
